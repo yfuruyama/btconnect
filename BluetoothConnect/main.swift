@@ -21,7 +21,7 @@ class BTManager: IOBluetoothDeviceInquiryDelegate {
     func startInquiry() {
         self.btdi = IOBluetoothDeviceInquiry(delegate: self)
         self.btdi?.updateNewDeviceNames = true
-        self.btdi?.inquiryLength = 10
+        self.btdi?.inquiryLength = 3
         self.btdi?.start()
     }
 
@@ -66,6 +66,7 @@ class BTManager: IOBluetoothDeviceInquiryDelegate {
 
     @objc func deviceInquiryComplete(sender: IOBluetoothDeviceInquiry!, error: IOReturn, aborted: Bool) {
         print("Device inquiry completed")
+        os.exit(0)
     }
 }
 
