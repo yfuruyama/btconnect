@@ -1,15 +1,15 @@
 BluetoothConnect
 ===
 
-OSX tool for connecting bluetooth device in command line
+OSX tool for connecting bluetooth device in command line.
 
-# Build
+## Build
 
 ```sh
-$ xcrun -sdk macosx swiftc BluetoothConnect/main.swift -Xlinker -rpath -Xlinker "@executable_path/../Frameworks/" -o btconnect
+$ xcrun -sdk macosx swiftc BluetoothConnect/main.swift -o btconnect
 ```
 
-# Run
+## Run
 
 ```sh
 $ ./btconnect <target device MAC address or device name>
