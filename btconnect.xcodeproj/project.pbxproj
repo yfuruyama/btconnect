@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		25694FC41D007981009C5D0A /* BluetoothConnect */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BluetoothConnect; sourceTree = BUILT_PRODUCTS_DIR; };
+		25694FC41D007981009C5D0A /* btconnect */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = btconnect; sourceTree = BUILT_PRODUCTS_DIR; };
 		25694FC71D007981009C5D0A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		25694FCE1D007A3E009C5D0A /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -45,7 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				25694FCE1D007A3E009C5D0A /* IOBluetooth.framework */,
-				25694FC61D007981009C5D0A /* BluetoothConnect */,
+				25694FC61D007981009C5D0A /* btconnect */,
 				25694FC51D007981009C5D0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,25 +53,26 @@
 		25694FC51D007981009C5D0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25694FC41D007981009C5D0A /* BluetoothConnect */,
+				25694FC41D007981009C5D0A /* btconnect */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		25694FC61D007981009C5D0A /* BluetoothConnect */ = {
+		25694FC61D007981009C5D0A /* btconnect */ = {
 			isa = PBXGroup;
 			children = (
 				25694FC71D007981009C5D0A /* main.swift */,
 			);
-			path = BluetoothConnect;
+			name = btconnect;
+			path = btconnect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		25694FC31D007981009C5D0A /* BluetoothConnect */ = {
+		25694FC31D007981009C5D0A /* btconnect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25694FCB1D007981009C5D0A /* Build configuration list for PBXNativeTarget "BluetoothConnect" */;
+			buildConfigurationList = 25694FCB1D007981009C5D0A /* Build configuration list for PBXNativeTarget "btconnect" */;
 			buildPhases = (
 				25694FC01D007981009C5D0A /* Sources */,
 				25694FC11D007981009C5D0A /* Frameworks */,
@@ -81,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = BluetoothConnect;
-			productName = BluetoothConnect;
-			productReference = 25694FC41D007981009C5D0A /* BluetoothConnect */;
+			name = btconnect;
+			productName = btconnect;
+			productReference = 25694FC41D007981009C5D0A /* btconnect */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 25694FBF1D007981009C5D0A /* Build configuration list for PBXProject "BluetoothConnect" */;
+			buildConfigurationList = 25694FBF1D007981009C5D0A /* Build configuration list for PBXProject "btconnect" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25694FC31D007981009C5D0A /* BluetoothConnect */,
+				25694FC31D007981009C5D0A /* btconnect */,
 			);
 		};
 /* End PBXProject section */
@@ -215,21 +216,21 @@
 		25694FCC1D007981009C5D0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = btconnect;
 			};
 			name = Debug;
 		};
 		25694FCD1D007981009C5D0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = btconnect;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25694FBF1D007981009C5D0A /* Build configuration list for PBXProject "BluetoothConnect" */ = {
+		25694FBF1D007981009C5D0A /* Build configuration list for PBXProject "btconnect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25694FC91D007981009C5D0A /* Debug */,
@@ -238,13 +239,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25694FCB1D007981009C5D0A /* Build configuration list for PBXNativeTarget "BluetoothConnect" */ = {
+		25694FCB1D007981009C5D0A /* Build configuration list for PBXNativeTarget "btconnect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25694FCC1D007981009C5D0A /* Debug */,
 				25694FCD1D007981009C5D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

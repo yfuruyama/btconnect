@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  BluetoothConnect
+//  btconnect
 //
 //  Created by Furuyama Yuuki on 6/2/16.
 //  Copyright © 2016 Furuyama Yuuki. All rights reserved.
