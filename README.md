@@ -6,13 +6,13 @@ OSX tool for connecting bluetooth device in command line.
 ## Build
 
 ```sh
-$ xcrun -sdk macosx swiftc BluetoothConnect/main.swift -o btconnect
+$ xcrun -sdk macosx swiftc btconnect/main.swift -o build/btconnect
 ```
 
 ## Run
 
 ```sh
-$ ./btconnect <target device MAC address or device name>
+$ ./build/btconnect <target device MAC address or device name>
 ```
 
 ## Run periodically by launchd
