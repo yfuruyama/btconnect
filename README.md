@@ -1,4 +1,4 @@
-BluetoothConnect
+btconnect
 ===
 
 OSX tool for connecting bluetooth device in command line.
